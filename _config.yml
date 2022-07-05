@@ -3,3 +3,9 @@ lsi: false
 highlighter: pygments
 kramdown:
   toc_levels: 1..2
+
+title: Easyforth
+description: Learn Forth!
+google_analytics: UA-3174668
+show_downloads: true
+theme: jekyll-theme-hacker

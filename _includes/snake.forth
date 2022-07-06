@@ -148,7 +148,7 @@ variable length
   begin
     draw-snake
     draw-apple
-    100 sleep
+    1000 sleep
     check-input
     move-snake-tail
     move-snake-head

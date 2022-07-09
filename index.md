@@ -715,7 +715,7 @@ Before we look at the code, try playing the game. To start the game, execute the
 word `start`. Then use the arrow keys to move the snake. If you lose, you can run
 `start` again.
 
-{% include editor.html canvas=true game=true %}
+{% include editor.html size="large" canvas=true game=true %}
 
 Before we delve too deeply into this code, two disclaimers. First, this is terrible
 Forth code. I'm by no means a Forth expert, so there's probably all kinds of things

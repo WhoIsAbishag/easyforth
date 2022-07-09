@@ -735,7 +735,7 @@ for example, to draw a white pixel in the top-left corner you could run
 
     1 graphics !
 
-{% include editor.html size="small" canvas=true %}
+{% include editor.html size="large" canvas=true %}
 
 The game uses the following words to draw to the canvas:
 

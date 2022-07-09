@@ -12,6 +12,8 @@ layout: default
 
 [Og page?](https://github.com/WhoIsAbishag/easyforth/tree/gh-pages/shuffle)
 
+[Next Try](https://github.com/WhoIsAbishag/easyforth/blob/gh-pages/shuffle/index1.md)
+
 This small ebook is here to teach you a programming language called Forth. Forth is a
 language unlike most others. It's not functional _or_ object oriented, it doesn't
 have type-checking, and it basically has zero syntax. It was written in the 70s, but

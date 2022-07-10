@@ -43,7 +43,7 @@ a small {
 }
 
 .wrapper {
-  width:920px;
+  width:100%;
   margin:0 auto;
 }
 
@@ -114,7 +114,7 @@ strong {
 }
 
 section {
-  width:900px;
+  width:700px;
   float:right;
   padding-bottom:50px;
 }

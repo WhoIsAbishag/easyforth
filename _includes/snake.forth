@@ -31,12 +31,12 @@ variable length
 
 : draw-walls
   width 0 do
-    i 0 draw-black
-    i height 1 - draw-black
+    i 0 draw-white
+    i height 1 - draw-white
   loop
   height 0 do
-    0 i draw-black
-    width 1 - i draw-black
+    0 i draw-white
+    width 1 - i draw-white
   loop ;
 
 : initialize-snake
@@ -54,7 +54,7 @@ variable length
 : initialize
   width 0 do
     height 0 do
-      j i draw-white
+      j i draw-black
     loop
   loop
   draw-walls
@@ -108,7 +108,7 @@ variable length
   width 4 - random 2 + ;
 
 : move-apple
-  apple-x @ apple-y @ draw-white
+  apple-x @ apple-y @ draw-black
   random-position random-position
   set-apple-position ;
 
@@ -134,14 +134,14 @@ variable length
 
 : draw-snake
   length @ 0 do
-    i snake-x @ i snake-y @ draw-black
+    i snake-x @ i snake-y @ draw-white
   loop
   length @ snake-x @
   length @ snake-y @
-  draw-white ;
+  draw-grey ;
 
 : draw-apple
-  apple-x @ apple-y @ draw-black ;
+  apple-x @ apple-y @ draw-white ;
 
 
 : game-loop ( -- )

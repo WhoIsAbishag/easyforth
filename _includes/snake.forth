@@ -26,8 +26,8 @@ variable length
 
 : convert-x-y ( x y -- offset )  24 cells * + ;
 : draw ( color x y -- )  convert-x-y graphics + ! ;
-: draw-white ( x y -- )  1 rot rot draw ;
-: draw-black ( x y -- )  0 rot rot draw ;
+: draw-black ( x y -- )  1 rot rot draw ;
+: draw-white ( x y -- )  0 rot rot draw ;
 
 : draw-walls
   width 0 do

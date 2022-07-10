@@ -138,7 +138,7 @@ variable length
   loop
   length @ snake-x @
   length @ snake-y @
-  draw-grey ;
+  draw-black ;
 
 : draw-apple
   apple-x @ apple-y @ draw-white ;
